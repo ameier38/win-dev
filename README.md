@@ -12,6 +12,24 @@ can access from any computer. For example `C:\Users\<username>\Dropbox\dev\cmder
 Then pin the `Cmder.exe` to your task bar.
 [Instructions](https://github.com/cmderdev/cmder#single-user-portable-config)
 
+## Node (on Linux subsystem)
+Install `n-install`. This manages node environments
+and makes it easier to install global packages
+```commandline
+curl -L https://git.io/n-install | bash
+```
+
+### Usage
+Use latest Node long term support
+```commandline
+n -lts
+```
+
+Install a package
+```commandline
+npm install -g serverless
+```
+
 ## Chocolatey
 Package manager for Windows.
 In cmder, open the new tab prompt and select
